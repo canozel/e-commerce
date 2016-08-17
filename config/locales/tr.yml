@@ -1,0 +1,63 @@
+tr:
+  date:
+    formats:
+      default: "%d.%m.%Y"
+  time:
+    formats:
+      default: "%d.%m.%Y %I:%M %p"
+
+  number:
+    currency:
+      format:
+        unit:           "₺"
+        precision:      2
+        separator:      "."
+        delimiter:      ","
+        format:         "%u %n"
+
+  authentication:
+    sign_in:                  "Oturum aç"
+    sign_up:                  "Kaydol"
+    sign_out:                 "Oturumu kapat"
+    account_new:              "Bir hesabınız yok mu?"
+    account_exist:            "Zaten hesabınız var mı?"
+    forgot_password:          "Şifrenizi mi unuttunuz?"
+    reset_password:           "Sıfırla!"
+    reset_instraction:        "Parola sıfırlama talimatı gönderildi"
+
+  authorization:
+    not_authorized:           "Bu işlemi gerçekleştirmek için yetkiniz yok"
+
+  forms:
+    name:                     "İsim"
+    email:                    "Eposta"
+    password:                 "Şifre"
+    password_confirmation:    "Şifre onayı"
+    remember_me:              "Beni hatırla"
+
+  store:
+    index:
+      welcome:                "E-Ticaret"
+
+  account:
+    title:                  "Hesap ayarları"
+
+  cart:
+    add:                    "Sepete ekle"
+    title:                  "Sepetiniz"
+    empty:                  "Sepet boş"
+    checkout:               "Çıkış yap"
+
+  orders:
+    new:
+      legend:                 "Bilgileriniz giriniz"
+    form:
+      name:                   "İsim"
+      address_html:           "Adres"
+      email:                  "Eposta"
+      pay_type:               "Ödeme türü"
+      pay_prompt_html:        "Bir ödeme şekli seçin"
+      submit:                 "Sipariş"
+
+  thanks:                     "Siparişiniz için teşekkür ederiz"
+

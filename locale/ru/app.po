@@ -1,0 +1,724 @@
+# Russian translations for app package.
+# Copyright (C) 2014 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the app package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: app 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2014-10-23 16:23+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4"
+" && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"\n"
+
+msgid "%s address"
+msgstr "%s адрес"
+
+msgid "%s category"
+msgstr "%s категорию"
+
+msgid "%s payment method"
+msgstr "%s способ оплаты"
+
+msgid "%s product"
+msgstr "%s продукт"
+
+msgid "%s shipping method"
+msgstr "%s способ доставки"
+
+msgid "%s x %s added to your cart!"
+msgstr "%s x %s добавлено в Вашу корзину!"
+
+msgid "Accepted"
+msgstr "Принято"
+
+msgid "Account"
+msgstr "Аккаунт"
+
+msgid "Add new address"
+msgstr "Добавить новый адрес"
+
+msgid "Add to cart"
+msgstr "Добавить в корзину"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Address was successfully created."
+msgstr "Адрес был успешно создан."
+
+msgid "Address was successfully destroyed."
+msgstr "Адрес был успешно удалён."
+
+msgid "Address was successfully updated."
+msgstr "Адрес был успешно обновлен."
+
+msgid "Addresses"
+msgstr "Адреса"
+
+msgid "Address|City"
+msgstr "Город"
+
+msgid "Address|Phone"
+msgstr "Телефон"
+
+msgid "Address|Recipient"
+msgstr "Получатель"
+
+msgid "Address|Street"
+msgstr "Улица"
+
+msgid "Address|Zip code"
+msgstr "Почтовый индекс"
+
+msgid "All categories"
+msgstr "Все категории"
+
+msgid "Already have an account?"
+msgstr "Уже есть аккаунт?"
+
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+msgid "Available: %d of %d"
+msgstr "Доступно %d из %d"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Back to cart"
+msgstr "Вернуться в корзину"
+
+msgid "Billing address"
+msgstr "Платежный адрес"
+
+msgid "Can not change order status"
+msgstr "Невозможно изменить статус заказа"
+
+msgid "Cancel"
+msgstr "Отменить"
+
+msgid "Cart"
+msgstr "Корзина"
+
+msgid "Cart was successfully destroyed."
+msgstr "Корзина была успешно уничтожена."
+
+msgid "Carts"
+msgstr "Корзины"
+
+msgid "Categories"
+msgstr "Категории"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Category was successfully created."
+msgstr "Категория была успешно создана."
+
+msgid "Category was successfully destroyed."
+msgstr "Категория была успешно уничтожена."
+
+msgid "Category was successfully updated."
+msgstr "Категория была успешно обновлена​​."
+
+msgid "Category|Description"
+msgstr "Описание"
+
+msgid "Category|Products count"
+msgstr "Количество продуктов"
+
+msgid "Category|Title"
+msgstr "Название"
+
+msgid "Change my password"
+msgstr "Изменение пароля"
+
+msgid "Change your password"
+msgstr "Изменение пароля"
+
+msgid "Checkout"
+msgstr "Оформление заказа"
+
+msgid "City"
+msgstr "Город"
+
+msgid "Click the link below to unlock your account:"
+msgstr "Нажмите на ссылку ниже, чтобы разблокировать профиль:"
+
+msgid "Completed"
+msgstr "Завершено"
+
+msgid "Confirm Password"
+msgstr "Подтвердите пароль"
+
+msgid "Confirm my account"
+msgstr "Подтвердите свой аккаунт"
+
+msgid "Confirm new password"
+msgstr "Подтвердите новый пароль"
+
+msgid "Continue shopping"
+msgstr "Продолжить покупки"
+
+msgid "Created at"
+msgstr "Добавлен"
+
+msgid "Current password"
+msgstr "Текущий пароль"
+
+msgid "Customer"
+msgstr "Kлиент"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Default"
+msgstr "Стандарт"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Destroy"
+msgstr "Удалить"
+
+msgid "Didn't receive confirmation instructions?"
+msgstr "Не получили письмо с подтверждением?"
+
+msgid "Didn't receive unlock instructions?"
+msgstr "Не получили инструкции разблокировки?"
+
+msgid "Don't have an account?"
+msgstr "Еще нет учетной записи?"
+
+msgid "E-Shop"
+msgstr "E-Shop"
+
+msgid "EAN"
+msgstr "Артикул"
+
+msgid "EAN is composed of category id prefix and next product id"
+msgstr "EAN состоит из префикса идентификатор категории и идентификатора продукта"
+
+msgid "EAN: %s"
+msgstr "Артикул %s"
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "Email"
+msgstr "Электронная почта"
+
+msgid "Empty cart"
+msgstr "Очистить корзину"
+
+msgid "Fee"
+msgstr "Плата"
+
+msgid "Forgot your password?"
+msgstr "Забыли свой пароль?"
+
+msgid "Globalize/active record/translation"
+msgstr "Перевод"
+
+msgid "Globalize::ActiveRecord::Translation|Locale"
+msgstr "Регион"
+
+msgid "Globalize::ActiveRecord::Translation|Title"
+msgstr "Название"
+
+msgid "Hello"
+msgstr "Здравствуйте"
+
+msgid "Hi %s,"
+msgstr "Привет %s"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "If you didn't request this, please ignore this email."
+msgstr "Если вы не запрашивали это, не обращайте внимания на это сообщение."
+
+msgid "If you need to contact us about your order please send us an email. You may also call us at (0123) 45678"
+msgstr "Если вам нужно связаться с нами по вашим заказом, пожалуйста, отправьте нам письмо. Вы также можете позвонить нам по телефону (0123) 45678"
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "In progress"
+msgstr "В обработке"
+
+msgid "Invite new user"
+msgstr "Пригласить нового пользователя"
+
+msgid "Invited by"
+msgstr "По приглашению"
+
+msgid "Last sign in"
+msgstr "Последний вход"
+
+msgid "Leave these fields blank if you don't want to change your password."
+msgstr "Оставьте эти поля пустыми, если вы не хотите изменить пароль."
+
+msgid "Line item"
+msgstr "Позиция"
+
+msgid "LineItem|Price"
+msgstr "Цена"
+
+msgid "LineItem|Quantity"
+msgstr "Количество"
+
+msgid "My Account"
+msgstr "Мой аккаунт"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "New"
+msgstr ""
+
+msgid "New address"
+msgstr "Новый адрес"
+
+msgid "New category"
+msgstr "Новая категория"
+
+msgid "New password"
+msgstr "Новый пароль"
+
+msgid "New payment"
+msgstr "Новый метод оплаты"
+
+msgid "New product"
+msgstr "Новый продукт"
+
+msgid "New shipment"
+msgstr "Новая отправка"
+
+msgid "Next"
+msgstr "Следующая"
+
+msgid "No pending invitations"
+msgstr "Нет ожидающих приглашения"
+
+msgid "Order"
+msgstr "Заказ"
+
+msgid "Order #%d"
+msgstr "Заказ #%d"
+
+msgid "Order date"
+msgstr "Дата заказа"
+
+msgid "Order summary"
+msgstr "Перечень заказа"
+
+msgid "Orders"
+msgstr "Заказы"
+
+msgid "Order|Status"
+msgstr "Статус"
+
+msgid "Out of stock"
+msgstr "Распродано"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Password confirmation"
+msgstr "Подтверждение пароля"
+
+msgid "Payment"
+msgstr "Оплата"
+
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+msgid "Payment methods"
+msgstr "Способы оплаты"
+
+msgid "Payment was successfully created."
+msgstr "Способ оплаты был успешно создан."
+
+msgid "Payment was successfully destroyed."
+msgstr "Способ оплаты был успешно удален."
+
+msgid "Payment was successfully updated."
+msgstr "Способ оплаты был успешно обновлен."
+
+msgid "Payments"
+msgstr "Способы оплаты"
+
+msgid "Payment|Title"
+msgstr "Название"
+
+msgid "Pending invitation"
+msgstr "В ожидании приглашения"
+
+msgid "Pending user invitations"
+msgstr "В ожидании приглашения"
+
+msgid "Per page"
+msgstr "На странице"
+
+msgid "Place order"
+msgstr "Разместить заказ"
+
+msgid "Please be patient the image upload may take a few seconds..."
+msgstr "Пожалуйста, будьте терпеливы загрузки изображений может занять несколько секунд ..."
+
+msgid "Please create a category first."
+msgstr "Пожалуйста, создайте категорию в первую очередь."
+
+msgid "Price"
+msgstr "Цена"
+
+msgid "Price:"
+msgstr "Цена:"
+
+msgid "Proceed to Checkout"
+msgstr "Оформить заказ"
+
+msgid "Product"
+msgstr "Продукт"
+
+msgid "Product count"
+msgstr "Количество товаров"
+
+msgid "Product was successfully created."
+msgstr "Продукт был успешно создан."
+
+msgid "Product was successfully destroyed."
+msgstr "Продукт был успешно удален."
+
+msgid "Product was successfully updated."
+msgstr "Продукт был успешно обновлен."
+
+msgid "Products"
+msgstr "Продукты"
+
+msgid "Products:"
+msgstr "Продукты:"
+
+msgid "Product|Description"
+msgstr "Описание"
+
+msgid "Product|Ean"
+msgstr "Артикул"
+
+msgid "Product|Image"
+msgstr "Изображение"
+
+msgid "Product|Price"
+msgstr "Цена"
+
+msgid "Product|Quantity"
+msgstr "Количество"
+
+msgid "Product|Title"
+msgstr "Название"
+
+msgid "Provider"
+msgstr "Провайдер"
+
+msgid "Purge stale carts"
+msgstr "Удалить устаревшие корзины"
+
+msgid "Quantity"
+msgstr "Количество"
+
+msgid "Recipient"
+msgstr "Получатель"
+
+msgid "Remember me"
+msgstr "Запомни меня"
+
+msgid "Resend confirmation instructions"
+msgstr "Повторно выслать письмо с подтверждением"
+
+msgid "Reset password"
+msgstr "Сброс пароля"
+
+msgid "Role"
+msgstr "Роль"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Select category"
+msgstr "Выберите категорию"
+
+msgid "Send an invitation"
+msgstr "Отправить приглашение"
+
+msgid "Send invitation"
+msgstr "Отправить приглашение"
+
+msgid "Sent at"
+msgstr "Отправлено в"
+
+msgid "Set your password"
+msgstr "Установите пароль"
+
+msgid "Shipment"
+msgstr "Доставка"
+
+msgid "Shipment was successfully created."
+msgstr "Доставка была успешно создана."
+
+msgid "Shipment was successfully destroyed."
+msgstr "Доставка была успешно удалена."
+
+msgid "Shipment was successfully updated."
+msgstr "Доставка была успешно обновлена​​."
+
+msgid "Shipments"
+msgstr "Доставки"
+
+msgid "Shipment|Default"
+msgstr "По умолчанию"
+
+msgid "Shipment|Fee"
+msgstr "Плата"
+
+msgid "Shipment|Provider"
+msgstr "Провайдер"
+
+msgid "Shipment|Title"
+msgstr "Название"
+
+msgid "Shipped"
+msgstr "Отправлено"
+
+msgid "Shipping address"
+msgstr "Адрес доставки"
+
+msgid "Shipping and Billing address"
+msgstr "Адрес доставки и платежа"
+
+msgid "Shipping method"
+msgstr "Способ доставки"
+
+msgid "Shipping methods"
+msgstr "Способы доставки"
+
+msgid "Sign in"
+msgstr "Вход"
+
+msgid "Sign in count"
+msgstr "Количество входов"
+
+msgid "Sign out"
+msgstr "Выйти"
+
+msgid "Sign up"
+msgstr "Зарегистрироваться"
+
+msgid "Sign-in"
+msgstr "Вход в систему"
+
+msgid "Sign-up"
+msgstr "Регистрация"
+
+msgid "Someone has requested a link to change your password. You can do this through the link below."
+msgstr "Кто-то просил ссылку для смены пароля. Вы можете сделать это через ссылку ниже."
+
+msgid "Something went wrong"
+msgstr "Что пошло не так"
+
+msgid "Sorry, the product was not found."
+msgstr "К сожалению, продукт не найден."
+
+msgid "Sort"
+msgstr "Сортировка"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Street"
+msgstr "Улица"
+
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+msgid "Thank you for your business!"
+msgstr "Спасибо за Ваш заказ!"
+
+msgid "Thank you for your order!"
+msgstr "Спасибо за Ваш заказ!"
+
+msgid "This address is referenced by an order"
+msgstr "Этот адрес использется в заказе"
+
+msgid "This product is out of stock"
+msgstr "Этот продукт не в наличии"
+
+msgid "Title"
+msgstr "Название"
+
+msgid "Title %s:"
+msgstr "Название %s:"
+
+msgid "Token"
+msgstr "Код"
+
+msgid "Total"
+msgstr "Всего"
+
+msgid "Total exc. shipping"
+msgstr "Итого без пересылки"
+
+msgid "Unlock my account"
+msgstr "Разблокировать профиль"
+
+msgid "Update account"
+msgstr "Обновить профиль"
+
+msgid "Updated at"
+msgstr "Oбновлен"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "User|Confirmation sent at"
+msgstr ""
+
+msgid "User|Confirmation token"
+msgstr ""
+
+msgid "User|Confirmed at"
+msgstr ""
+
+msgid "User|Current sign in at"
+msgstr ""
+
+msgid "User|Current sign in ip"
+msgstr ""
+
+msgid "User|Email"
+msgstr ""
+
+msgid "User|Encrypted password"
+msgstr ""
+
+msgid "User|Integer"
+msgstr ""
+
+msgid "User|Last sign in at"
+msgstr ""
+
+msgid "User|Last sign in ip"
+msgstr ""
+
+msgid "User|Name"
+msgstr ""
+
+msgid "User|Remember created at"
+msgstr ""
+
+msgid "User|Reset password sent at"
+msgstr ""
+
+msgid "User|Reset password token"
+msgstr ""
+
+msgid "User|Role"
+msgstr ""
+
+msgid "User|Sign in count"
+msgstr ""
+
+msgid "User|String"
+msgstr ""
+
+msgid "User|Unconfirmed email"
+msgstr ""
+
+msgid "VAT"
+msgstr "НДС"
+
+msgid "VAT: %s"
+msgstr "НДС %s"
+
+msgid "Vat"
+msgstr "НДС"
+
+msgid "Vat|Rate"
+msgstr "Ставка"
+
+msgid "Vat|Title"
+msgstr "Название"
+
+msgid "View"
+msgstr "Вид"
+
+msgid "We'll resend the confirmation instructions."
+msgstr "Не получили письмо с подтверждением?"
+
+msgid "We'll send password reset instructions."
+msgstr "Мы вышлем инструкции по изменению пароля."
+
+msgid "We'll send the invitation instructions."
+msgstr "Мы вышлем инструкции по приглашениям."
+
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+msgid "You are not authorized to perform this action"
+msgstr "Вы не авторизованы для выполнения этого действия"
+
+msgid "You can confirm your account email through the link below:"
+msgstr "Вы можете подтвердить свой аккаунт электронной почты через ссылку ниже:"
+
+msgid "You must enter your current password to make changes."
+msgstr "Вы должны ввести текущий пароль, чтобы вносить изменения."
+
+msgid "Your Cart"
+msgstr "Ваша корзина"
+
+msgid "Your account has been locked due to an excessive number of unsuccessful sign in attempts."
+msgstr "Ваш аккаунт был заблокирован из-за чрезмерного количества неудачных попыток входа."
+
+msgid "Your addresses list is empty"
+msgstr "Ваш список адресов пуст"
+
+msgid "Your addresses list is empty, please add at least one address"
+msgstr "Ваш список адресов пуст, пожалуйста, добавить хотя бы один адрес"
+
+msgid "Your cart is empty!"
+msgstr "Ваша корзина пуста!"
+
+msgid "Your order has been received and will be processed shortly."
+msgstr "Ваш заказ был получен и будет обработан в ближайшее время."
+
+msgid "Your orders list is empty"
+msgstr "Ваш список заказов пуст"
+
+msgid "Your password won't change until you access the link above and create a new one."
+msgstr "Ваш пароль не будет меняться до тех пор, пока вы не пройдёте по ссылке и создатите новый."
+
+msgid "billing address is same as shipping address"
+msgstr "платежный адрес такой же, как адрес доставки"
+
+msgid "incl. VAT"
+msgstr "вкл. НДС"
+
+msgid "thank you for your order."
+msgstr "Спасибо за Ваш заказ!"

@@ -1,0 +1,30 @@
+- breadcrumb :cart, @current_cart
+
+.panel.panel-default
+  .panel-heading
+    .panel-title
+      .row
+        .col-xs-6.col-md-6
+          %h4
+            %i.fa.fa-shopping-cart
+            = _('Your Cart')
+
+        .col-xs-6.col-md-6.text-right
+          - unless @current_cart.total.zero?
+            = link_to _('Empty cart'), @current_cart, data: {confirm: _('Are you sure?')}, method: :delete, class: 'btn btn-danger'
+
+  .panel-body
+    - if @current_cart.total.zero?
+      %h4=_('Your cart is empty!')
+    - else
+      #items= render 'items'
+
+    %hr
+
+    .row
+      .col-xs-12.col-sm-6.col-md-3.col
+        %p= link_to _('Continue shopping'), root_path, class: 'btn btn-default btn-block'
+      .col-xs-12.col-sm-6.col-md-3.col-md-offset-6
+        %p= link_to _('Proceed to Checkout'), new_order_path, class: 'btn btn-success btn-block'
+
+

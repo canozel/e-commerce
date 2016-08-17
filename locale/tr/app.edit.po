@@ -1,0 +1,959 @@
+# Turkish translations for app package.
+# Copyright (C) 2016 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the app package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: app 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-16 17:14+0300\n"
+"PO-Revision-Date: 2016-08-16 17:14+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+
+#: ../app/views/addresses/_form.haml:7
+msgid "%s address"
+msgstr "%s Adres"
+
+#: ../app/views/categories/_form.haml:5
+msgid "%s category"
+msgstr "%s Kategori"
+
+#: ../app/views/payments/_form.haml:5
+msgid "%s payment method"
+msgstr "%s ödeme şekli"
+
+#: ../app/views/products/_form.haml:5
+msgid "%s product"
+msgstr "%s Ürün"
+
+#: ../app/views/shipments/_form.haml:5
+msgid "%s shipping method"
+msgstr "%s Kargo"
+
+#: ../app/controllers/line_items_controller.rb:11
+msgid "%s x %s added to your cart!"
+msgstr "% x %s sepete eklendi!"
+
+#: ../app/helpers/view_helper.rb:55 ../app/views/orders/show.haml:10
+msgid "Accepted"
+msgstr "Onaylandı"
+
+#: ../app/views/account/show.haml:65
+msgid "Account"
+msgstr "Hesap"
+
+#: ../app/views/orders/_address.haml:27 ../app/views/orders/_address.haml:62 ../app/views/orders/_address.haml:105
+msgid "Add new address"
+msgstr "Adres ekle"
+
+#: ../app/views/store/show.html.haml:58 ../app/views/store/_products.html.haml:52 ../app/views/store/_products.html.haml:109
+msgid "Add to cart"
+msgstr "Sepete Ekle"
+
+#: ../app/views/addresses/_modal.haml:11 ../app/views/addresses/show.haml:5 ../app/views/addresses/show.haml:10 model_attributes.rb:2
+msgid "Address"
+msgstr "Adres"
+
+#: ../app/controllers/addresses_controller.rb:30
+msgid "Address was successfully created."
+msgstr "Adres başarıyla oluşturuldu."
+
+#: ../app/controllers/addresses_controller.rb:70 ../app/controllers/addresses_controller.rb:80
+msgid "Address was successfully destroyed."
+msgstr "Adres başarıyla silindi."
+
+#: ../app/controllers/addresses_controller.rb:50
+msgid "Address was successfully updated."
+msgstr "Adres başarıyla güncellendi."
+
+#: ../app/views/addresses/index.haml:3 ../app/views/users/show.haml:35 ../app/views/account/show.haml:37 ../app/views/layouts/_navigation.haml:137
+msgid "Addresses"
+msgstr "adres"
+
+#: model_attributes.rb:3
+msgid "Address|City"
+msgstr "Adres|Şehir"
+
+#: model_attributes.rb:4
+msgid "Address|Phone"
+msgstr "Adres|Telefon"
+
+#: model_attributes.rb:5
+msgid "Address|Recipient"
+msgstr "Adres|Alıcı"
+
+#: model_attributes.rb:6
+msgid "Address|Street"
+msgstr "Adres|Sokak"
+
+#: model_attributes.rb:7
+msgid "Address|Zip code"
+msgstr "Adres|Posta Kodu"
+
+#: ../app/views/store/index.haml:100 ../app/views/store/index.haml:115
+msgid "All categories"
+msgstr "Tüm Kategoriler"
+
+#: ../app/views/devise/registrations/new.haml:58
+msgid "Already have an account?"
+msgstr "Zaten hesabınız var mı?"
+
+#: ../app/views/carts/show.haml:25 ../app/views/shipments/_shipments.haml:23 ../app/views/payments/_payments.haml:12 ../app/views/users/index.haml:85 ../app/views/products/_products.haml:22 ../app/views/orders/_orders.haml:50
+msgid "Are you sure?"
+msgstr "Emin misiniz?"
+
+#: ../app/views/store/show.html.haml:40 ../app/views/products/show.haml:41
+msgid "Available: %d of %d"
+msgstr "Mevcut: %d - %d"
+
+#: ../app/views/shipments/show.haml:37 ../app/views/shipments/_form.haml:65 ../app/views/categories/show.haml:41 ../app/views/categories/_form.haml:21 ../app/views/addresses/_form.haml:80 ../app/views/payments/show.haml:21 ../app/views/payments/_form.haml:22 ../app/views/products/show.haml:50 ../app/views/products/_form.haml:118 ../app/views/orders/_shipping.haml:33 ../app/views/orders/_summary.haml:132 ../app/views/orders/_payment.haml:30
+msgid "Back"
+msgstr "Geri"
+
+#: ../app/views/orders/_address.haml:114
+msgid "Back to cart"
+msgstr "Sepete Geri Dön"
+
+#: ../app/pdfs/order_pdf.rb:51 ../app/views/orders/_address.haml:55 ../app/views/orders/show.haml:60
+msgid "Billing address"
+msgstr "Fatura Adresi"
+
+#: ../app/controllers/orders_controller.rb:68
+msgid "Can not change order status"
+msgstr "Sipariş durumunu değiştirilemiyor"
+
+#: ../app/views/addresses/_modal.haml:90
+msgid "Cancel"
+msgstr "İptal"
+
+#: ../app/views/layouts/_navigation.haml:35 ../app/views/layouts/_navigation.haml:41
+msgid "Cart"
+msgstr "Sepet"
+
+#: ../app/controllers/carts_controller.rb:32
+msgid "Cart was successfully destroyed."
+msgstr "Sepet başarıyla boşaltıldı."
+
+#: ../app/views/carts/index.haml:3 ../app/views/layouts/_navigation.haml:155
+msgid "Carts"
+msgstr "alışveriş"
+
+#: ../app/views/categories/index.haml:3 ../app/views/layouts/_navigation.haml:119
+msgid "Categories"
+msgstr "kategori"
+
+#: ../app/views/categories/show.haml:5 ../app/views/products/_form.haml:15 model_attributes.rb:8
+msgid "Category"
+msgstr "Kategori"
+
+#: ../app/controllers/categories_controller.rb:30
+msgid "Category was successfully created."
+msgstr "Kategori başarıyla oluşturuldu."
+
+#: ../app/controllers/categories_controller.rb:50
+msgid "Category was successfully destroyed."
+msgstr "Kategori başarıyla silindi."
+
+#: ../app/controllers/categories_controller.rb:40
+msgid "Category was successfully updated."
+msgstr "Kategori başarıyla güncellendi."
+
+#: model_attributes.rb:9
+msgid "Category|Description"
+msgstr "Kategori|Açıklama"
+
+#: model_attributes.rb:10
+msgid "Category|Products count"
+msgstr "Kategori|Ürün sayısı"
+
+#: model_attributes.rb:11
+msgid "Category|Title"
+msgstr "Kategori|Adı"
+
+#: ../app/views/devise/mailer/reset_password_instructions.html.erb:5 ../app/views/devise/passwords/edit.haml:34
+msgid "Change my password"
+msgstr "Şifremi değiştir"
+
+#: ../app/views/devise/passwords/edit.haml:9
+msgid "Change your password"
+msgstr "Şifreni değiştir"
+
+#: ../config/breadcrumbs.rb:14
+msgid "Checkout"
+msgstr "Çıkış"
+
+#: ../app/views/addresses/_form.haml:35
+msgid "City"
+msgstr "Şehir"
+
+#: ../app/views/devise/mailer/unlock_instructions.html.erb:5
+msgid "Click the link below to unlock your account:"
+msgstr "Hesabınızı açmak için aşağıdaki linki tıklayın:"
+
+#: ../app/helpers/view_helper.rb:58 ../app/views/orders/show.haml:25
+msgid "Completed"
+msgstr "Tamamlandı"
+
+#: ../app/views/devise/registrations/new.haml:46
+msgid "Confirm Password"
+msgstr "Şifreyi onayla"
+
+#: ../app/views/devise/mailer/confirmation_instructions.html.erb:5
+msgid "Confirm my account"
+msgstr "Hesabımı onayla"
+
+#: ../app/views/devise/invitations/edit.haml:36 ../app/views/devise/passwords/edit.haml:28
+msgid "Confirm new password"
+msgstr "Yeni şifreyi onayla"
+
+#: ../app/views/carts/show.haml:43
+msgid "Continue shopping"
+msgstr "Alışverişe devam"
+
+#: ../app/views/carts/index.haml:24 ../app/views/store/index.haml:49
+msgid "Created at"
+msgstr "Oluşturulma"
+
+#: ../app/views/account/_account.haml:64
+msgid "Current password"
+msgstr "Şimdiki şifre"
+
+#: ../app/views/orders/index.html.haml:16
+msgid "Customer"
+msgstr "Müşteri"
+
+#: ../app/views/orders/index.html.haml:18 ../app/views/account/_order.haml:11
+msgid "Date"
+msgstr "Tarih"
+
+#: ../app/views/shipments/index.haml:22
+msgid "Default"
+msgstr "Varsayılan"
+
+#: ../app/views/products/_form.haml:27
+msgid "Description"
+msgstr "Açıklama"
+
+#: ../app/views/account/_address.haml:48
+msgid "Destroy"
+msgstr "Sil"
+
+#: ../app/views/devise/registrations/new.haml:13 ../app/views/devise/shared/_links.html.haml:17
+msgid "Didn't receive confirmation instructions?"
+msgstr "Doğrulama mesajı almadınız mı?"
+
+#: ../app/views/devise/shared/_links.html.haml:22
+msgid "Didn't receive unlock instructions?"
+msgstr "Kilit açma talimatı almadınız mı?"
+
+#: ../app/views/devise/sessions/new.haml:58
+msgid "Don't have an account?"
+msgstr "Bir hesabınız yok mu?"
+
+#: ../config/breadcrumbs.rb:2
+msgid "E-Shop"
+msgstr "E-Ticaret"
+
+#: ../app/views/products/index.haml:26 ../app/views/products/_form.haml:32
+msgid "EAN"
+msgstr "EAN"
+
+#: ../app/views/products/_form.haml:42
+msgid "EAN is composed of category id prefix and next product id"
+msgstr "EAN kategori numarasını önek alarak ve sonraki ürün kimliği ile oluşur"
+
+#: ../app/views/store/show.html.haml:36 ../app/views/products/show.haml:37
+msgid "EAN: %s"
+msgstr "EAN: %s"
+
+#: ../app/views/shipments/edit.haml:1 ../app/views/shipments/show.haml:35 ../app/views/categories/edit.haml:1 ../app/views/categories/show.haml:39 ../app/views/addresses/edit.haml:1 ../app/views/payments/edit.haml:1 ../app/views/payments/show.haml:19 ../app/views/products/edit.haml:1 ../app/views/products/show.haml:48 ../app/views/account/_address.haml:42
+msgid "Edit"
+msgstr "Düzenle"
+
+#: ../app/views/addresses/show.haml:40 ../app/views/devise/registrations/new.haml:32 ../app/views/devise/confirmations/new.haml:19 ../app/views/devise/sessions/new.haml:19 ../app/views/devise/invitations/new.haml:19 ../app/views/devise/passwords/new.haml:19 ../app/views/users/index.haml:25 ../app/views/users/index.haml:64 ../app/views/account/_account.haml:23
+msgid "Email"
+msgstr "Eposta"
+
+#: ../app/views/carts/show.haml:25
+msgid "Empty cart"
+msgstr "Sepet Boş"
+
+#: ../app/views/shipments/index.haml:28 ../app/views/shipments/show.haml:26
+msgid "Fee"
+msgstr "Ücret"
+
+#: ../app/views/devise/shared/_links.html.haml:12
+msgid "Forgot your password?"
+msgstr "Şifrenizi mi unuttunuz?"
+
+#: model_attributes.rb:12
+msgid "Globalize/active record/translation"
+msgstr "Globalize/active record/translationi"
+
+#: model_attributes.rb:13
+msgid "Globalize::ActiveRecord::Translation|Locale"
+msgstr "Globalize::ActiveRecord::Translation|Yerel"
+
+#: model_attributes.rb:14
+msgid "Globalize::ActiveRecord::Translation|Title"
+msgstr "Globalize::ActiveRecord::Translation|Başlık"
+
+#: ../app/views/devise/mailer/reset_password_instructions.html.erb:1 ../app/views/devise/mailer/unlock_instructions.html.erb:1
+msgid "Hello"
+msgstr "Merhaba"
+
+#: ../app/views/mailers/order_confirmation.html.erb:1
+msgid "Hi %s,"
+msgstr "Merhaba %s"
+
+#: ../app/views/carts/index.haml:22
+msgid "ID"
+msgstr "ID"
+
+#: ../app/views/devise/mailer/reset_password_instructions.html.erb:7
+msgid "If you didn't request this, please ignore this email."
+msgstr "Eğer böyle bir istekte bulunmadıysanız, maili görmezden gelebilirsiniz."
+
+#: ../app/views/mailers/order_confirmation.html.erb:6
+msgid "If you need to contact us about your order please send us an email. You may also call us at (0123) 45678"
+msgstr "Eğer sipariş ile ilgili sorun yaşarsanız bize mail atabilirsiniz. Ayrıca bizi arayabilirsiniz. Numaramız: (0123) 45678"
+
+#: ../app/views/carts/_items.haml:7 ../app/views/store/_products.html.haml:62 ../app/views/products/index.haml:22 ../app/views/products/_form.haml:83 ../app/views/orders/_summary.haml:22
+msgid "Image"
+msgstr "Resim"
+
+#: ../app/helpers/view_helper.rb:56 ../app/views/orders/show.haml:15
+msgid "In progress"
+msgstr "Devam etmekte"
+
+#: ../app/views/users/index.haml:7
+msgid "Invite new user"
+msgstr "Yeni kullanıcı daveti"
+
+#: ../app/views/users/index.haml:66
+msgid "Invited by"
+msgstr "Davet eden kişi"
+
+#: ../app/views/users/index.haml:27
+msgid "Last sign in"
+msgstr "Son oturum açma"
+
+#: ../app/views/account/_account.haml:43
+msgid "Leave these fields blank if you don't want to change your password."
+msgstr "Şifrenizi değiştirmek istemiyorsanız eğer bu alanları boş bırakın."
+
+#: model_attributes.rb:15
+msgid "Line item"
+msgstr "Ürün"
+
+#: model_attributes.rb:16
+msgid "LineItem|Price"
+msgstr "Ürün|Fiyat"
+
+#: model_attributes.rb:17
+msgid "LineItem|Quantity"
+msgstr "Ürün|Adet"
+
+#: ../app/views/layouts/_navigation.haml:77 ../config/breadcrumbs.rb:19
+msgid "My Account"
+msgstr "Hesabım"
+
+#: ../app/views/devise/registrations/new.haml:25 ../app/views/devise/invitations/edit.haml:21 ../app/views/users/index.haml:23 ../app/views/account/_account.haml:12
+msgid "Name"
+msgstr "İsim"
+
+#: ../app/views/products/new.haml:1
+msgid "New"
+msgstr "Yeni"
+
+#: ../app/views/addresses/index.haml:7 ../app/views/account/show.haml:42
+msgid "New address"
+msgstr "Yeni adres"
+
+#: ../app/views/categories/index.haml:7
+msgid "New category"
+msgstr "Yeni kategori"
+
+#: ../app/views/devise/invitations/edit.haml:29 ../app/views/devise/passwords/edit.haml:21
+msgid "New password"
+msgstr "Yeni şifre"
+
+#: ../app/views/payments/index.haml:7
+msgid "New payment"
+msgstr "Yeni ödeme"
+
+#: ../app/views/categories/show.haml:31 ../app/views/products/index.haml:7
+msgid "New product"
+msgstr "Yeni ürüm"
+
+#: ../app/views/shipments/index.haml:7
+msgid "New shipment"
+msgstr "Yeni Kargo"
+
+#: ../app/views/orders/_shipping.haml:35 ../app/views/orders/_address.haml:120 ../app/views/orders/_payment.haml:32
+msgid "Next"
+msgstr "İleri"
+
+#: ../app/views/users/index.haml:89
+msgid "No pending invitations"
+msgstr "Bekleyen talimat yok"
+
+#: model_attributes.rb:18
+msgid "Order"
+msgstr "Sipariş"
+
+#: ../app/pdfs/order_pdf.rb:24 ../app/views/orders/show.haml:43
+msgid "Order #%d"
+msgstr "Sipariş #%d"
+
+#: ../app/views/orders/show.haml:124
+msgid "Order date"
+msgstr "Sipariş tarihi"
+
+#: ../app/views/orders/new.haml:40 ../app/views/orders/_summary.haml:7 ../app/views/orders/show.haml:150
+msgid "Order summary"
+msgstr "Sipariş özeti"
+
+#: ../app/views/users/show.haml:13 ../app/views/orders/index.html.haml:1 ../app/views/account/show.haml:15 ../app/views/layouts/_navigation.haml:113
+msgid "Orders"
+msgstr "Sipariş"
+
+#: model_attributes.rb:19
+msgid "Order|Status"
+msgstr "Sipariş | Durumu"
+
+#: ../app/views/store/_products.html.haml:15 ../app/views/store/_products.html.haml:95
+msgid "Out of stock"
+msgstr "Stokta kalmadı"
+
+#: ../app/views/devise/registrations/new.haml:39 ../app/views/devise/sessions/new.haml:27 ../app/views/account/_account.haml:37
+msgid "Password"
+msgstr "Şifre"
+
+#: ../app/views/account/_account.haml:50
+msgid "Password confirmation"
+msgstr "Şİfre onayı"
+
+#: ../app/views/orders/index.html.haml:20 model_attributes.rb:20
+msgid "Payment"
+msgstr "Ödeme"
+
+#: ../app/views/orders/new.haml:32 ../app/views/orders/_payment.haml:7 ../app/views/orders/show.haml:110 ../app/views/account/_order.haml:13
+msgid "Payment method"
+msgstr "Ödeme şekli"
+
+#: ../app/views/payments/index.haml:3
+msgid "Payment methods"
+msgstr "Ödeme seçenekleri"
+
+#: ../app/controllers/payments_controller.rb:26
+msgid "Payment was successfully created."
+msgstr "Ödeme başarıyla oluşturuldu."
+
+#: ../app/controllers/payments_controller.rb:42
+msgid "Payment was successfully destroyed."
+msgstr "Ödeme başarıyla silindi."
+
+#: ../app/controllers/payments_controller.rb:34
+msgid "Payment was successfully updated."
+msgstr "Ödeme başarıyla güncellendi."
+
+#: ../app/views/layouts/_navigation.haml:149
+msgid "Payments"
+msgstr "ödeme"
+
+#: model_attributes.rb:21
+msgid "Payment|Title"
+msgstr "Ödeme|Adı"
+
+#: ../app/views/users/_users.haml:6
+msgid "Pending invitation"
+msgstr "Bekleyen talimatlar"
+
+#: ../app/views/users/index.haml:52
+msgid "Pending user invitations"
+msgstr "Kullanıcının bekleyen talimatları"
+
+#: ../app/views/store/index.haml:71
+msgid "Per page"
+msgstr "Sayfa başı"
+
+#: ../app/views/orders/_summary.haml:134
+msgid "Place order"
+msgstr "Yeni sıra"
+
+#: ../app/views/products/_form.haml:105
+msgid "Please be patient the image upload may take a few seconds..."
+msgstr "Resim yükleme birkaç saniye sürebilir lütfen sabırlı olun..."
+
+#: ../app/controllers/products_controller.rb:20
+msgid "Please create a category first."
+msgstr "Lütfen önce bir kategori oluşturunuz."
+
+#: ../app/pdfs/order_pdf.rb:93 ../app/views/carts/_items.haml:11 ../app/views/store/index.haml:44 ../app/views/store/_products.html.haml:66 ../app/views/products/index.haml:30 ../app/views/products/_form.haml:61 ../app/views/orders/_summary.haml:26 ../app/views/orders/show.haml:170
+msgid "Price"
+msgstr "Fiyat"
+
+#: ../app/views/store/show.html.haml:49
+msgid "Price:"
+msgstr "Fiyat:"
+
+#: ../app/views/carts/show.haml:48
+msgid "Proceed to Checkout"
+msgstr "Devam et ve bitir"
+
+#: ../app/views/store/_products.html.haml:122 ../app/views/orders/show.haml:165 model_attributes.rb:22
+msgid "Product"
+msgstr "Ürün"
+
+#: ../app/views/carts/index.haml:28 ../app/views/categories/index.haml:24
+msgid "Product count"
+msgstr "Ürün adeti"
+
+#: ../app/controllers/products_controller.rb:36
+msgid "Product was successfully created."
+msgstr "Ürün başarıyla oluşturuldu."
+
+#: ../app/controllers/products_controller.rb:57
+msgid "Product was successfully destroyed."
+msgstr "Ürün başarıyla silindi."
+
+#: ../app/controllers/products_controller.rb:46
+msgid "Product was successfully updated."
+msgstr "Ürün başarıyla güncellendi."
+
+#: ../app/views/store/_products.html.haml:122 ../app/views/layouts/_navigation.haml:125
+msgid "Products"
+msgstr "ürün"
+
+#: ../app/views/categories/show.haml:19
+msgid "Products:"
+msgstr "Ürünler:"
+
+#: model_attributes.rb:23
+msgid "Product|Description"
+msgstr "Ürün|Açıklaması"
+
+#: model_attributes.rb:24
+msgid "Product|Ean"
+msgstr "Ürün|EAN"
+
+#: model_attributes.rb:25
+msgid "Product|Image"
+msgstr "Ürün|Resmi"
+
+#: model_attributes.rb:26
+msgid "Product|Price"
+msgstr "Ürün|Fiyatı"
+
+#: model_attributes.rb:27
+msgid "Product|Quantity"
+msgstr "Ürün|Miktarı"
+
+#: model_attributes.rb:28
+msgid "Product|Title"
+msgstr "Ürün|Adı"
+
+#: ../app/views/shipments/index.haml:24 ../app/views/shipments/show.haml:10
+msgid "Provider"
+msgstr "Sahibi"
+
+#: ../app/views/carts/index.haml:7
+msgid "Purge stale carts"
+msgstr "Eski alışverişleri temizle"
+
+#: ../app/pdfs/order_pdf.rb:93 ../app/views/carts/_items.haml:13 ../app/views/store/_products.html.haml:68 ../app/views/products/index.haml:28 ../app/views/products/_form.haml:50 ../app/views/orders/_summary.haml:28 ../app/views/orders/show.haml:175
+msgid "Quantity"
+msgstr "Miktar"
+
+#: ../app/views/addresses/index.haml:24 ../app/views/addresses/_form.haml:24
+msgid "Recipient"
+msgstr "Alıcı"
+
+#: ../app/views/devise/sessions/new.haml:45
+msgid "Remember me"
+msgstr "Beni hatırla"
+
+#: ../app/views/devise/confirmations/new.haml:25
+msgid "Resend confirmation instructions"
+msgstr "Onay talimatını tekrar gönder"
+
+#: ../app/views/devise/confirmations/new.haml:9 ../app/views/devise/sessions/new.haml:32 ../app/views/devise/passwords/new.haml:9 ../app/views/devise/passwords/new.haml:25
+msgid "Reset password"
+msgstr "Şifreyi sıfırla"
+
+#: ../app/views/users/index.haml:21
+msgid "Role"
+msgstr "Rol"
+
+#: ../app/views/shipments/_form.haml:63 ../app/views/categories/_form.haml:19 ../app/views/addresses/_form.haml:78 ../app/views/devise/invitations/edit.haml:42 ../app/views/payments/_form.haml:20 ../app/views/products/_form.haml:116
+msgid "Save"
+msgstr "Kaydet"
+
+#: ../app/views/addresses/_modal.haml:88
+msgid "Save changes"
+msgstr "Değişiklikleri kaydet"
+
+#: ../app/helpers/view_helper.rb:104 ../app/views/store/index.haml:16
+msgid "Search"
+msgstr "Ara"
+
+#: ../app/views/products/_form.haml:20
+msgid "Select category"
+msgstr "Kategori seç"
+
+#: ../app/views/devise/invitations/new.haml:25
+msgid "Send an invitation"
+msgstr "Bir davetiye gönder"
+
+#: ../app/views/devise/invitations/new.haml:9
+msgid "Send invitation"
+msgstr "Davetiye gönder"
+
+#: ../app/views/users/index.haml:62
+msgid "Sent at"
+msgstr "Gönderilecek"
+
+#: ../app/views/devise/invitations/edit.haml:9
+msgid "Set your password"
+msgstr "Şifrenizi ayarlayın"
+
+#: ../app/pdfs/order_pdf.rb:122 ../app/views/orders/_summary.haml:100 ../app/views/orders/show.haml:217 ../app/views/account/_order.haml:15 model_attributes.rb:29
+msgid "Shipment"
+msgstr "Kargo"
+
+#: ../app/controllers/shipments_controller.rb:26
+msgid "Shipment was successfully created."
+msgstr "Kargo başarıyla oluşturuldu."
+
+#: ../app/controllers/shipments_controller.rb:42
+msgid "Shipment was successfully destroyed."
+msgstr "Kargo başarıyla silindi."
+
+#: ../app/controllers/shipments_controller.rb:34
+msgid "Shipment was successfully updated."
+msgstr "Kargo başarıyla güncellendi."
+
+#: ../app/views/layouts/_navigation.haml:143
+msgid "Shipments"
+msgstr "Kargolar"
+
+#: model_attributes.rb:30
+msgid "Shipment|Default"
+msgstr "Kargo | Varsayılan"
+
+#: model_attributes.rb:31
+msgid "Shipment|Fee"
+msgstr "Kargo | Ücret"
+
+#: model_attributes.rb:32
+msgid "Shipment|Provider"
+msgstr "Kargo | Sahibi"
+
+#: model_attributes.rb:33
+msgid "Shipment|Title"
+msgstr "Kargo | Adı"
+
+#: ../app/helpers/view_helper.rb:57 ../app/views/orders/show.haml:20
+msgid "Shipped"
+msgstr "Gönderilen"
+
+#: ../app/pdfs/order_pdf.rb:58 ../app/views/orders/_address.haml:20 ../app/views/orders/show.haml:84
+msgid "Shipping address"
+msgstr "Gönderilen adres"
+
+#: ../app/pdfs/order_pdf.rb:45 ../app/views/orders/new.haml:16 ../app/views/orders/_address.haml:7
+msgid "Shipping and Billing address"
+msgstr "Kargo ve fatura adresi"
+
+#: ../app/views/orders/new.haml:24 ../app/views/orders/_shipping.haml:7
+msgid "Shipping method"
+msgstr "Kargo çeşidi"
+
+#: ../app/views/shipments/index.haml:3
+msgid "Shipping methods"
+msgstr "Kargo çeşitleri"
+
+#: ../app/views/devise/registrations/new.haml:62 ../app/views/devise/shared/_links.html.haml:2 ../app/views/devise/sessions/new.haml:51 ../app/views/layouts/_navigation.haml:90 ../app/views/layouts/_navigation.haml:97
+msgid "Sign in"
+msgstr "Oturum aç"
+
+#: ../app/views/users/index.haml:29
+msgid "Sign in count"
+msgstr "Sayımında yap"
+
+#: ../app/views/layouts/_navigation.haml:79
+msgid "Sign out"
+msgstr "Oturumu kapat"
+
+#: ../app/views/devise/registrations/new.haml:52 ../app/views/devise/shared/_links.html.haml:7 ../app/views/devise/sessions/new.haml:62 ../app/views/layouts/_navigation.haml:90 ../app/views/layouts/_navigation.haml:99
+msgid "Sign up"
+msgstr "Kaydol"
+
+#: ../app/views/devise/sessions/new.haml:9
+msgid "Sign-in"
+msgstr "Oturum aç"
+
+#: ../app/views/devise/registrations/new.haml:9
+msgid "Sign-up"
+msgstr "Kaydol"
+
+#: ../app/views/devise/mailer/reset_password_instructions.html.erb:3
+msgid "Someone has requested a link to change your password. You can do this through the link below."
+msgstr "Birisi şifrenizi değiştirmek için bir link istedi. Aşağıdaki bağlantı üzerinden yapabilirsiniz."
+
+#: ../app/controllers/carts_controller.rb:34
+msgid "Something went wrong"
+msgstr "Bir şeyler yanlış gitti"
+
+#: ../app/views/store/_products.html.haml:136
+msgid "Sorry, the product was not found."
+msgstr "Maalesef, ürün bulunamadı."
+
+#: ../app/views/store/index.haml:31
+msgid "Sort"
+msgstr "Tür"
+
+#: ../app/views/addresses/index.haml:22 ../app/views/orders/index.html.haml:14 ../app/views/account/_order.haml:9
+msgid "Status"
+msgstr "Durum"
+
+#: ../app/views/addresses/_form.haml:46
+msgid "Street"
+msgstr "Sokak"
+
+#: ../app/pdfs/order_pdf.rb:121 ../app/views/carts/_items.haml:15 ../app/views/carts/_items.haml:67 ../app/views/orders/_summary.haml:30 ../app/views/orders/_summary.haml:68 ../app/views/orders/show.haml:207
+msgid "Subtotal"
+msgstr "Ara toplam"
+
+#: ../app/pdfs/order_pdf.rb:133
+msgid "Thank you for your business!"
+msgstr "Bizi tercih ettiğiniz için teşekkürler!"
+
+#: ../app/controllers/orders_controller.rb:53
+msgid "Thank you for your order!"
+msgstr "Siparişiniz için teşekkürler!"
+
+#: ../app/views/addresses/_addresses.haml:21
+msgid "This address is referenced by an order"
+msgstr "Bu adres bir siparişe ait"
+
+#: ../app/controllers/application_controller.rb:53
+msgid "This product is out of stock"
+msgstr "Bu ürün stokta kalmadı"
+
+#: ../app/pdfs/order_pdf.rb:93 ../app/views/carts/_items.haml:9 ../app/views/shipments/index.haml:26 ../app/views/shipments/show.haml:18 ../app/views/shipments/_form.haml:27 ../app/views/categories/index.haml:22 ../app/views/categories/_form.haml:13 ../app/views/payments/index.haml:22 ../app/views/payments/show.haml:10 ../app/views/payments/_form.haml:14 ../app/views/store/index.haml:39 ../app/views/store/_products.html.haml:64 ../app/views/products/index.haml:24 ../app/views/products/_form.haml:25 ../app/views/orders/_summary.haml:24
+msgid "Title"
+msgstr "Başlık"
+
+#: ../app/views/categories/show.haml:11
+msgid "Title %s:"
+msgstr "Başlık %s"
+
+#: ../app/views/users/index.haml:68
+msgid "Token"
+msgstr "Simge"
+
+#: ../app/pdfs/order_pdf.rb:93 ../app/pdfs/order_pdf.rb:124 ../app/views/carts/_items.haml:19 ../app/views/orders/_summary.haml:34 ../app/views/orders/index.html.haml:22 ../app/views/orders/show.haml:180 ../app/views/orders/show.haml:227 ../app/views/account/_order.haml:17
+msgid "Total"
+msgstr "Genel toplam"
+
+#: ../app/views/carts/_items.haml:101 ../app/views/orders/_summary.haml:118
+msgid "Total exc. shipping"
+msgstr "Kargo hariç"
+
+#: ../app/views/devise/mailer/unlock_instructions.html.erb:7
+msgid "Unlock my account"
+msgstr "Hesabımın kilidini aç"
+
+#: ../app/views/account/_account.haml:79
+msgid "Update account"
+msgstr "Hesabı güncelle"
+
+#: ../app/views/carts/index.haml:26
+msgid "Updated at"
+msgstr "Güncellendi"
+
+#: ../app/views/addresses/index.haml:26 ../app/views/addresses/show.haml:36 model_attributes.rb:34
+msgid "User"
+msgstr "kullanıcı"
+
+#: ../app/views/users/index.haml:3 ../app/views/layouts/_navigation.haml:131
+msgid "Users"
+msgstr "kullanıcı"
+
+#: model_attributes.rb:35
+msgid "User|Confirmation sent at"
+msgstr "Kullanıcı|Onay gönderildi"
+
+#: model_attributes.rb:36
+msgid "User|Confirmation token"
+msgstr "Kullanıcı|Onay simgesi"
+
+#: model_attributes.rb:37
+msgid "User|Confirmed at"
+msgstr "Kullanıcı|Onaylandı"
+
+#: model_attributes.rb:38
+msgid "User|Current sign in at"
+msgstr "Kullanıcı|Mevcut durumu"
+
+#: model_attributes.rb:39
+msgid "User|Current sign in ip"
+msgstr "Kullanıcı|Mevcut ip"
+
+#: model_attributes.rb:40
+msgid "User|Email"
+msgstr "Kullanıcı|Eposta"
+
+#: model_attributes.rb:41
+msgid "User|Encrypted password"
+msgstr "Kullanıcı|Şifreli parola"
+
+#: model_attributes.rb:42
+msgid "User|Integer"
+msgstr "Kullanıcı|Tamsayı"
+
+#: model_attributes.rb:43
+msgid "User|Last sign in at"
+msgstr "Kullanıcı|Son giriş"
+
+#: model_attributes.rb:44
+msgid "User|Last sign in ip"
+msgstr "Kullanıcı|Son giriş ip"
+
+#: model_attributes.rb:45
+msgid "User|Name"
+msgstr "Kullanıcı|Adı"
+
+#: model_attributes.rb:46
+msgid "User|Remember created at"
+msgstr "Kullanıcı|Hatırlatma"
+
+#: model_attributes.rb:47
+msgid "User|Reset password sent at"
+msgstr "Kullanıcı|Şifre sıfırlama"
+
+#: model_attributes.rb:48
+msgid "User|Reset password token"
+msgstr "Kullanıcı|Şifre sıfırlama simgesi"
+
+#: model_attributes.rb:49
+msgid "User|Role"
+msgstr "Kullanıcı|Rol"
+
+#: model_attributes.rb:50
+msgid "User|Sign in count"
+msgstr "Kullanıcı|Giriş sayısı"
+
+#: model_attributes.rb:51
+msgid "User|String"
+msgstr "Kullanıcı|String"
+
+#: model_attributes.rb:52
+msgid "User|Unconfirmed email"
+msgstr "Kullanıcı|Onaylanmayan eposta"
+
+#: ../app/views/carts/_items.haml:17 ../app/views/products/index.haml:32 ../app/views/products/_form.haml:72 ../app/views/orders/_summary.haml:32
+msgid "VAT"
+msgstr "KDV"
+
+#: ../app/views/store/show.html.haml:38 ../app/views/products/show.haml:39
+msgid "VAT: %s"
+msgstr "KDV: %s"
+
+#: model_attributes.rb:53
+msgid "Vat"
+msgstr "KDV"
+
+#: model_attributes.rb:54
+msgid "Vat|Rate"
+msgstr "KDV|Oran"
+
+#: model_attributes.rb:55
+msgid "Vat|Title"
+msgstr "KDV|Başlık"
+
+#: ../app/views/store/index.haml:56
+msgid "View"
+msgstr "Görünüm"
+
+#: ../app/views/devise/confirmations/new.haml:31
+msgid "We'll resend the confirmation instructions."
+msgstr "Onay talimatı gönderildi."
+
+#: ../app/views/devise/passwords/new.haml:31
+msgid "We'll send password reset instructions."
+msgstr "Parola sıfırlama talimatı gönderildi."
+
+#: ../app/views/devise/invitations/new.haml:31
+msgid "We'll send the invitation instructions."
+msgstr "Davetiye talımatı gönderildi."
+
+#: ../app/views/devise/mailer/confirmation_instructions.html.erb:1
+msgid "Welcome"
+msgstr "Hoşgeldin"
+
+#: ../app/controllers/application_controller.rb:63 ../app/controllers/application_controller.rb:66
+msgid "You are not authorized to perform this action"
+msgstr "Bu işlemi gerçekleştirmek için yetkiniz yok"
+
+#: ../app/views/devise/mailer/confirmation_instructions.html.erb:3
+msgid "You can confirm your account email through the link below:"
+msgstr "Aşağıdaki bağlantı üzerinden hesabınızı eposta ile onaylayabilirsiniz:"
+
+#: ../app/views/account/_account.haml:70
+msgid "You must enter your current password to make changes."
+msgstr "Değişiklik yapmak için mevcut şifrenizi girmeniz gerekir."
+
+#: ../app/views/carts/show.haml:17 ../config/breadcrumbs.rb:10
+msgid "Your Cart"
+msgstr "Sepetiniz"
+
+#: ../app/views/devise/mailer/unlock_instructions.html.erb:3
+msgid "Your account has been locked due to an excessive number of unsuccessful sign in attempts."
+msgstr "Hesabınıza çok sayıda başarısız oturum açma işlemi yapılmıştır. Bu yüzden hesabınız kitlenmiştir."
+
+#: ../app/views/account/_address.haml:64
+msgid "Your addresses list is empty"
+msgstr "Adresleriniz boş"
+
+#: ../app/views/orders/_address.haml:98
+msgid "Your addresses list is empty, please add at least one address"
+msgstr "Adresleriniz boş, en az bir adres eklemelisiniz"
+
+#: ../app/controllers/carts_controller.rb:13 ../app/controllers/line_items_controller.rb:25 ../app/controllers/orders_controller.rb:34 ../app/views/carts/show.haml:30
+msgid "Your cart is empty!"
+msgstr "Sepetiniz boş!"
+
+#: ../app/views/mailers/order_confirmation.html.erb:5
+msgid "Your order has been received and will be processed shortly."
+msgstr "Hesabınız alındı ve en kısa sürede işlenecektir."
+
+#: ../app/views/account/_order.haml:50
+msgid "Your orders list is empty"
+msgstr "Talimat bulunamadı"
+
+#: ../app/views/devise/mailer/reset_password_instructions.html.erb:8
+msgid "Your password won't change until you access the link above and create a new one."
+msgstr "Parolanız yukarıdaki bağlantıya ulaşmak kadar değiştirmek ve yeni bir tane oluşturun olmaz"
+
+#: ../app/views/orders/_address.haml:74
+msgid "billing address is same as shipping address"
+msgstr "Fatura adresi kargo adresi ile aynıdır"
+
+#: ../app/pdfs/order_pdf.rb:123 ../app/views/carts/_items.haml:83 ../app/views/orders/_summary.haml:84
+msgid "incl. VAT"
+msgstr "KDV dahil"
+
+#: ../app/views/mailers/order_confirmation.html.erb:3
+msgid "thank you for your order."
+msgstr "Siparişiniz için teşekkür ederiz."

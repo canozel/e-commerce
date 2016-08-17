@@ -1,0 +1,19 @@
+.panel
+  .panel-body
+    %h4.page-header= @shipment.title
+
+    %p
+      %strong= _('Provider')
+      = @shipment.provider
+
+    %p
+      %strong= _('Title')
+      = @shipment.title
+
+    %p
+      %strong= _('Fee')
+      = @shipment.fee
+
+  .panel-footer
+    = link_to _('Edit'), edit_shipment_path(@shipment), class: 'btn btn-default'
+    = link_to _('Back'), shipments_path

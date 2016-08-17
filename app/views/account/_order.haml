@@ -1,0 +1,27 @@
+#orders
+  - if @user.orders.present?
+    %table.table.table-hover.table-responsive
+      %thead
+        %tr
+          %th= _('Status')
+          %th= _('Date')
+          %th.hidden-xs= _('Payment method')
+          %th.hidden-xs= _('Shipment')
+          %th= _('Total')
+          %th{ collspan: 2}
+
+      %tbody
+        - @user.orders.each do |order|
+          %tr
+            %td= order_status(order.status)
+            %td= I18n.localize(order.created_at)
+            %td.hidden-xs= _(order.payment.title)
+            %td.hidden-xs= "#{order.shipment.provider} #{order.shipment.title}"
+            %td= number_to_currency order.total
+            %td.text-right{ width: '20%' }
+              = icon_link_to '', order_path(order), { class: 'btn btn-default' }, 'fa-eye'
+              = icon_link_to '', order_path(order, format: 'pdf'), { class: 'btn btn-default hidden-xs' } , 'fa-print'
+
+
+  - else
+    %h4= _('Your orders list is empty')

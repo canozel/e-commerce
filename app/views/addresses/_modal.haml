@@ -1,0 +1,45 @@
+.modal.fade{ id: (address.new_record? ? 'address_modal' : "address_modal_#{address.id}"), 'aria-hidden' => 'true', role: :dialog, tabindex: '-1' }
+  .modal-dialog
+    .modal-content
+      .modal-header
+        %button.close{ 'aria-hidden' => true, 'data-dismiss' => 'modal', type: :button }  &times;
+        %h4.modal-title= _('Address')
+      .modal-body
+        - address = @address || address
+
+        = render 'layouts/errors', object: address
+        = form_for address, html: { class: 'form-horizontal' } do |f|
+          .row
+            .col-md-12
+              .form-group
+                = f.label :recipient, class: 'col-sm-2 control-label'
+                .col-sm-4
+                  = f.text_field :recipient, placeholder: 'Max Mustermann', required: true, class: 'form-control'
+
+              .form-group
+                = f.label :city, class: 'col-sm-2 control-label'
+                .col-sm-4
+                  = f.text_field :city, placeholder: 'Berlin', required: true, class: 'form-control'
+
+              .form-group
+                = f.label :street, class: 'col-sm-2 control-label'
+                .col-sm-4
+                  = f.text_field :street, placeholder: 'Musterstr. 1', required: true, class: 'form-control'
+
+              .form-group
+                = f.label :zip_code, class: 'col-sm-2 control-label'
+                .col-sm-4
+                  = f.text_field :zip_code, placeholder: '98765', required: true, class: 'form-control'
+
+              .form-group
+                = f.label :phone, class: 'col-sm-2 control-label'
+                .col-sm-4
+                  = f.telephone_field :phone, placeholder: '(0800) 123456', required: true, class: 'form-control'
+
+              %hr
+              .row
+                .col-sm-offset-2.col-sm-10
+                  .pull-left
+                    = submit_tag _('Save changes'), class: 'btn btn-success'
+                    = link_to _('Cancel'), request.referer, class: 'btn btn-default', data: { dismiss: 'modal' }
+

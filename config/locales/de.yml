@@ -1,0 +1,71 @@
+de:
+  date:
+    formats:
+      default: "%d.%m.%Y"
+  time:
+    formats:
+      default: "%d.%m.%Y %H:%M"
+
+  number:
+    currency:
+      format:
+        unit:           "€"
+        precision:      2
+        separator:      ","
+        delimiter:      "."
+        format:         "%n %u"
+
+  devise:
+    account:
+      user:
+        signed_up_but_unconfirmed: "Sie haben sich erfolgreich registriert. Wir konnten Sie noch nicht anmelden, da Ihr Account noch nicht bestätigt ist. Sie erhalten in Kürze eine E-Mail mit der Anleitung, wie Sie Ihren Account freischalten können."
+        updated: "Ihre Daten wurden aktualisiert."
+
+  authentication:
+    sign_in:                  "Anmelden"
+    sign_up:                  "Registrieren"
+    sign_out:                 "Abmelden"
+    account_new:              "Haben Sie kein Konto?"
+    account_exist:            "Haben Sie bereits ein Konto?"
+    forgot_password:          "Passwort vergessen?"
+    reset_password:           "Passwort zurücksetzen"
+    reset_instraction:        "Bald bekommen Sie eine Passwort-Reset-Anweisungen."
+
+  authorization:
+    not_authorized:           "Sie sind nicht berechtigt, diese Aktion durchzuführen"
+
+  forms:
+    name:                     "Name"
+    email:                    "Email"
+    password:                 "Passwort"
+    password_confirmation:    "Passwort bestätigen"
+    remember_me:              "Eingeloggt bleiben"
+
+  store:
+    index:
+      welcome:                "E-Shop - Demo"
+
+  account:
+    title:                  "Mein Konto"
+
+  cart:
+    add:                    "in Warenkorb"
+    title:                  "Ihr Warenkorb"
+    empty:                  "Warenkorb leeren"
+    checkout:               "Zur Kasse gehen"
+    continue:               "Weiter einkaufen"
+
+  orders:
+    new:
+      legend:                 "Please Enter Your Details"
+    form:
+      name:                   "Name"
+      address_html:           "Address"
+      email:                  "Email"
+      pay_type:               "Pay with"
+      pay_prompt_html:        "Select a payment method"
+      submit:                 "Bestellung aufgeben"
+
+  thanks:                     "Vielen dank für Ihre Bestellung!"
+
+

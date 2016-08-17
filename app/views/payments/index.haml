@@ -1,0 +1,15 @@
+%h4.page-header.no-margin
+  = _('Payment methods')
+  .pull-right
+    = link_to _('New payment'), new_payment_path, class: 'btn btn-xs btn-success'
+
+.panel.panel-default
+  .panel-body
+    %table.table.table-hover
+      %thead
+        %tr
+          %th= _('Title')
+          %th{ colspan: 3, width: '25%'}
+            = ransack_search_form_for(payments_path, :translations_title_cont)
+      %tbody{id: controller_name}
+        = render partial: controller_name

@@ -1,0 +1,251 @@
+@import "custom_bootstrap/mixins.less";
+
+@media (min-width: @screen-xs) {
+  .text-auto {
+    text-align: left;
+  }
+}
+
+@media (min-width: @screen-sm) {
+  .text-auto {
+    text-align: right;
+  }
+}
+
+#categories {
+  &.navbar-nav {
+    li {
+      display: block;
+
+      a {
+        line-height: 2;
+        height: 32px;
+        padding: 2px 5px;
+        outline: 0;
+        text-decoration: none;
+        background: none;
+      }
+
+      &.active a {
+        color: #a02622;
+        color: #5B5;
+        border-bottom: 3px solid #a02622;
+        border-bottom: 3px solid #5B5;
+      }
+    }
+  }
+}
+
+#store {
+  a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+      background-color: #5B5;
+      border-color: #5B5;
+      color: #ffffff;
+      z-index: 2;
+  }
+
+  .nav-tabs > li {
+    // border-bottom: 1px solid #fafafa;
+  }
+
+  .nav-tabs > li.active {
+    // border-bottom: 1px solid #ddd;
+  }
+
+  .nav-tabs > li > a {
+    outline: none;
+  }
+
+  .nav-tabs > li > a:hover {
+    outline: none;
+  }
+
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:hover,
+  .nav-tabs > li.active > a:focus {
+    background-color: #fff;
+    outline: none;
+    width: 100%;
+  }
+
+  .tab-content {
+    @media (max-width: @screen-xs) {
+      padding: 15px 10px 10px 10px;
+      border-radius: 4px;
+    }
+
+    @media (min-width: @screen-sm) {
+      border-top: none;
+      padding: 20px 10px 0px 10px;
+    }
+
+    background-color: #fff;
+    border: 1px solid #dddddd;
+
+    ul.list-group li:first-child {
+      border-top:none;
+      border-top-left-radius: 0px;
+    }
+  }
+}
+
+#alphabet {
+  a {
+    padding: 5px;
+    text-decoration: none;
+    outline: none;
+
+    &:active {
+      color: #fff;
+      background-color: #94BA65;
+    }
+
+    &.disabled {
+      color: #aaa;
+      pointer-events: none;
+      cursor: default;
+    }
+  }
+}
+
+// Grig view
+.product-grid {
+  background-color: #FFF;
+  border: 1px solid #EEEEEE;
+  border-radius:3px;
+  margin-bottom: 20px;
+  padding: 5px;
+  max-height: 380px;
+  text-align: left;
+  transition: all 0.2s ease-in-out 0s;
+
+  &:hover {
+    border: 1px solid #94BA65;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  &.out-of-stock {
+    border: 1px solid #DDDDDD;
+    position: relative;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .ribbon {
+    position: absolute;
+    top: 0;
+    right: 1px;
+
+    &.ribbon-small .text {
+      font-size: 12px;
+    }
+
+    .text {
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  a.thumbnail {
+    border: none;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    display:block;
+    margin-bottom: 0;
+  }
+
+  .title {
+    .text-overflow;
+  }
+
+  .description {
+    color: gray;
+    display: block;
+    font-size: 11px;
+    .text-overflow;
+  }
+}
+
+// List view
+.product-list {
+  background-color: #FFF;
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+  background-color: #fff;
+  border-radius: 3px;
+
+  padding: 5px 0px 5px 0px;
+
+  &:hover {
+  }
+
+  &.out-of-stock {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  img {
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .description {
+    color: gray;
+    display: block;
+    font-size: 11px;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    width: 460px;
+  }
+
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+  }
+}
+
+// Product details
+.product-details {
+  .border-right {
+    border-right: 1px solid #eee;
+  }
+  img {
+    // width: 100%;
+    // height: 100%;
+  }
+
+  .product {
+    // border-left: 1px solid #eee;
+    // padding-left: 20px;
+  }
+}
+
+.quantity-helper {
+  width: 70px;
+
+  .btn:active, .btn:focus {
+    outline: none;
+  }
+
+  span > button {
+    width: 30px;
+  }
+
+  input[type="text"] {
+    width: 40px !important;
+
+    &.input-disabled {
+      background-color: #F5F5F5;
+      pointer-events: none;
+      cursor: default;
+    }
+  }
+}
+

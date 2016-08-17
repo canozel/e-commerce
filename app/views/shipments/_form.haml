@@ -1,0 +1,30 @@
+.panel.panel-default
+  = form_for @shipment, html: { class: 'form-horizontal' } do |f|
+    .panel-heading
+      %h4.page-header.no-margin= _("%s shipping method") % action
+    .panel-body
+      = render 'layouts/errors', object: @shipment
+      .row
+        .col-md-12
+          .form-group
+            = f.label :provider, class: 'col-sm-2 control-label'
+            .col-sm-4
+              = f.text_field :provider, placeholder: 'e.g. DHL', class: 'form-control'
+
+          = translation_fields_for @shipment, :title, _('Title')
+
+          .form-group
+            = f.label :fee, class: 'col-sm-2 control-label'
+            .col-sm-4
+              = f.text_field :fee, placeholder: "e.g. #{number_to_currency(4.99)}", class: 'form-control'
+
+          .form-group
+            = f.label :default, class: 'col-sm-2 control-label'
+            .col-sm-4
+              .checkbox
+                %label
+                  = f.check_box :default
+
+    .panel-footer
+      = f.submit _('Save'), class: 'btn btn-success'
+      = link_to _('Back'), shipments_path

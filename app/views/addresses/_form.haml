@@ -1,0 +1,38 @@
+- address = @address || address
+
+.panel.panel-default
+  = form_for address, html: { class: 'form-horizontal' } do |f|
+    .panel-heading
+      %h4.page-header.no-margin= _("%s address") % action
+    .panel-body
+      = render 'layouts/errors', object: address
+      .row
+        .col-md-12
+          .form-group
+            = f.label :recipient, class: 'col-sm-2 control-label'
+            .col-sm-4
+              = f.text_field :recipient, placeholder: _('Recipient'), required: true, class: 'form-control'
+
+          .form-group
+            = f.label :city, class: 'col-sm-2 control-label'
+            .col-sm-4
+              = f.text_field :city, placeholder: _('City'), required: true, class: 'form-control'
+
+          .form-group
+            = f.label :street, class: 'col-sm-2 control-label'
+            .col-sm-4
+              = f.text_field :street, placeholder: _('Street'), required: true, class: 'form-control'
+
+          .form-group
+            = f.label :zip_code, class: 'col-sm-2 control-label'
+            .col-sm-4
+              = f.text_field :zip_code, placeholder: '98765', required: true, class: 'form-control'
+
+          .form-group
+            = f.label :phone, class: 'col-sm-2 control-label'
+            .col-sm-4
+              = f.telephone_field :phone, placeholder: '(0800) 123456', required: true, class: 'form-control'
+
+    .panel-footer
+      = f.submit _('Save'), class: 'btn btn-success'
+      = link_to _('Back'), addresses_path

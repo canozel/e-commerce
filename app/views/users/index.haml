@@ -1,0 +1,44 @@
+%h4.page-header.no-margin
+  = _('Users')
+  .pull-right
+    = link_to _('Invite new user'), new_user_invitation_path, class: 'btn btn-xs btn-success'
+
+
+.panel.panel-default
+  .panel-body
+    %table.table.table-hover
+      %thead
+        %th= _('Role')
+        %th= _('Name')
+        %th= _('Email')
+        %th.visible-md.visible-lg= _('Last sign in')
+        %th.visible-md.visible-lg= _('Sign in count')
+        %th{ width: '25%'}
+          = ransack_search_form_for(users_path, :name_or_email_cont)
+      %tbody{id: controller_name}
+        = render partial: controller_name
+
+.panel.panel-default
+  .panel-heading
+    %i.fa.fa-clock-o.fa-spin
+    = _('Pending user invitations')
+  .panel-body
+    - if User.invitation_not_accepted.exists?
+      %table.table.table-hover
+        %thead
+          %th= _('Sent at')
+          %th= _('Email')
+          %th= _('Invited by')
+          %th.visible-md.visible-lg= _('Token')
+
+        %tbody
+          - User.invitation_not_accepted.each do |user|
+            %tr
+              %td= user.invitation_sent_at
+              %td= user.email
+              %td= user.invited_by.try(:name)
+              %td.visible-md.visible-lg= user.invitation_token
+              %td.text-right= icon_link_to '', user, { data: {confirm: _('Are you sure?') }, method: :delete, class: 'btn btn-sm btn-default' }, 'fa-trash-o'
+    - else
+      %b= _('No pending invitations')
+

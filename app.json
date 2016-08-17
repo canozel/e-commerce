@@ -1,0 +1,54 @@
+{
+  "name": "E-Shop Demo Application",
+  "description": "E-Shop playground rails application",
+  "logo": "https://avatars2.githubusercontent.com/u/611466",
+  "repository": "https://github.com/vlewin/e-shop",
+  "keywords": [
+    "E-Shop Demo",
+    "Online Shop",
+    "E-Shop",
+    "Rails shop",
+    "RSpec",
+    "Bootstrap",
+    "Devise",
+    "Pundit",
+    "Rails",
+    "Mandrill",
+    "Cloudinary",
+    "NewRelic"
+  ],
+  "scripts": {"postdeploy": "bundle exec rake db:migrate; bundle exec rake db:seed"},
+  "env": {
+    "CLOUDINARY_API_KEY": {
+      "description": "Your Cloudinary API key - Cloud-based image management & upload (cloudinary.com)",
+      "value": "API key",
+      "required": false
+    },
+    "CLOUDINARY_API_SECRET": {
+      "description": "Your Cloudinary API secret - Cloud-based image management & upload (cloudinary.com)",
+      "value": "API secret",
+      "required": false
+    },
+    "MANDRILL_USERNAME": {
+      "description": "Your Mandrill username - Transactional Email from MailChimp (mandrill.com)",
+      "value": "username",
+      "required": true
+    },
+    "MANDRILL_APIKEY": {
+      "description": "Your Mandrill API key - Transactional Email from MailChimp (mandrill.com)",
+      "value": "API key",
+      "required": true
+    },
+    "NEW_RELIC_LICENSE_KEY": {
+      "description": "Your NewRelic license key - New Relic: Application Performance Management and Monitoring (newrelic.com)",
+      "value": "license key",
+      "required": true
+    },
+    "SECRET_KEY_BASE": {
+      "description": "Rails secret key base - rake secret",
+      "value": "884af2b1930bfae31b5e62ed1ce8aadc7183b46792b29bb6dde44fd54d2b8c13fff6fd0e631f19e0666c777d8090b0031cc21b2d6aa84f1b0aacfb7fe6031118",
+      "required": false
+    },
+    "RAILS_ENV": "production"
+  }
+}

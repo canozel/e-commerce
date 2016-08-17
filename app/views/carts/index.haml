@@ -1,0 +1,21 @@
+%h4.page-header.no-margin
+  = _('Carts')
+  .pull-right
+    = link_to(_('Purge stale carts'), purge_carts_path, class: 'btn btn-xs btn-danger', method: :delete)
+
+.panel.panel-default
+  .panel-body
+    %table.table.table-hover
+      %thead
+        %tr
+          %th= _('ID')
+          %th= _('Created at')
+          %th= _('Updated at')
+          %th= _('Product count')
+          %th{ colspan: 3, width: '25%'}
+            = ransack_search_form_for(carts_path, :user_name_cont)
+      %tbody{id: controller_name}
+        = render partial: controller_name
+
+
+

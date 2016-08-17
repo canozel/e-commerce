@@ -1,0 +1,72 @@
+ru:
+  date:
+    formats:
+      default: "%d.%m.%Y"
+  time:
+    formats:
+      default: "%d.%m.%Y %H:%M"
+
+  number:
+    currency:
+      format:
+        unit:           "€"
+        precision:      2
+        separator:      ","
+        delimiter:      "."
+        format:         "%n %u"
+
+  # FIXME: Report an issue for devise-i18n gem
+  devise:
+    account:
+      user:
+        signed_up_but_unconfirmed: "На Ваш адрес электронной почты было отправлено сообщение с инструкциями по подтверждению Вашей учётной записи. Пожалуйста, проследуйте по ссылке из этого письма для активации Вашей учетной записи."
+        updated: "Ваша учётная запись успешно обновлена."
+
+  authentication:
+    sign_in:                  "Вход"
+    sign_up:                  "Регистрация"
+    sign_out:                 "Выход"
+    account_new:              "Еще нет аккаунта?"
+    account_exist:            "Уже есть аккаунт?"
+    forgot_password:          "Забыли свой пароль?"
+    reset_password:           "Сброс пароля"
+    reset_instraction:        "Вскоре вы получите инструкции по изменению пароля."
+
+  authorization:
+    not_authorized:           "Вы не авторизованы для выполнения этого действия"
+
+  forms:
+    name:                     "Логин"
+    email:                    "Адрес эл. почты"
+    password:                 "Пароль"
+    password_confirmation:    "Подтверждение пароля"
+    remember_me:              "Запомнить меня"
+
+  store:
+    index:
+      welcome:                "E-Shop - Demo"
+
+  account:
+    title:                  "Мой аккаунт"
+
+  cart:
+    add:                    "Добавить в корзину"
+    title:                  "Корзина"
+    empty:                  "Очистить корзину"
+    checkout:               "Оформить заказ"
+    continue:               "Вернуться к покупкам"
+
+  orders:
+    new:
+      legend:                 "Please Enter Your Details"
+    form:
+      name:                   "Имя"
+      address_html:           "Адрес"
+      email:                  "Адрес эл. почты"
+      pay_type:               "Тип платежа"
+      pay_prompt_html:        "Выберите тип платежа"
+      submit:                 "Купить"
+
+  thanks:                     "Спасибо за Ваш заказ!"
+
+

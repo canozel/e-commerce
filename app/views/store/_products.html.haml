@@ -1,0 +1,76 @@
+- if @products.present?
+  - if current_view == 'grid'
+    .row
+      - @products.each_with_index do |product, index|
+        - out_of_stock = product.out_of_stock?
+        .col-xs-12.col-sm-4.col-md-3
+          = form_tag line_items_path(product_id: product), class: 'form-inline' do
+            .product-grid{ class: out_of_stock ? 'out-of-stock' : '' }
+              - if out_of_stock
+                .ribbon.ribbon-medium.ribbon-grey
+                  .banner
+                    .text= _('Out of stock').upcase
+
+              %a.thumbnail{ href: store_product_path(product)}
+                = product_image_tag(product, :index)
+                %hr.line
+                %h4.title
+                  = product.title
+                  %p.description= product.description
+                .row
+                  .col-xs-12.col-sm-5.col-md-5
+                    %b= number_to_currency(product.price)
+                  .hidden-xs.col-sm-7.col-md-7
+                    .pull-right= quantity_field_tag 1, { max: product.available_quantity}
+                  .col-xs-12.col-sm-12.col-md-12
+                    %hr.line
+                    = button_tag(type: "submit", class: "btn btn-sm col-xs-12 col-sm-12 col-md-12 #{out_of_stock ? 'btn-disabled' : 'btn-success'}") do
+                      %i.fa.fa-shopping-cart
+                      = _('Add to cart')
+
+  - else
+    %table.table.table-hover.table-responsive
+      %thead
+        %tr
+          %th{ width: '5%'}= _('Image')
+          %th{ width: '55%'}= sort_link @search, :translations_title, _('Title')
+          %th{ width: '10%'}= sort_link @search, :price, _('Price')
+          %th.hidden-xs.hidden-sm{ width: '30%'}= _('Quantity')
+
+      %tbody
+        - @products.each_with_index do |product, index|
+          - out_of_stock = product.out_of_stock?
+          %tr.product-list{ class: out_of_stock ? 'out-of-stock' : '' }
+            %td= product_image_tag(product)
+            %td
+              .title= link_to product.title, store_product_path(product)
+              .description.hidden-xs= product.description
+            %td= number_to_currency(product.price)
+            %td
+              - if out_of_stock
+                .pull-right.hidden-xs
+                  %span.label.label-default.label-md= _('Out of stock')
+              - else
+                = form_tag line_items_path(product_id: product), class: 'form-inline' do
+                  .pull-left.hidden-xs.hidden-sm= quantity_field_tag 1, { max: product.available_quantity}
+                  .pull-right
+                    .visible-md.visible-lg
+                      = button_tag(type: "submit", class: "btn btn-sm #{out_of_stock ? 'btn-disabled' : 'btn-success'}") do
+                        %i.fa.fa-shopping-cart
+                        = _('Add to cart')
+                    .visible-xs.visible-sm
+                      = button_tag(type: "submit", class: "btn btn-sm btn-success") do
+                        %i.fa.fa-shopping-cart
+
+
+  %hr.line
+    .row
+      .col-sm-6.col-md-6
+        = page_entries_info @products, entry_name: _('Product'), collection_name: _('Products')
+      .col-sm-6.col-md-6
+        .text-right= paginate @products, remote: true
+
+- else
+  %h4
+    = _('Sorry, the product was not found.')
+  %hr

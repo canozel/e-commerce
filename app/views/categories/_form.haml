@@ -1,0 +1,12 @@
+.panel.panel-default
+  = form_for @category, html: { class: "form-horizontal" } do |f|
+    .panel-heading
+      %h4.page-header.no-margin= _("%s category") % action
+      = render 'layouts/errors', object: @category
+
+    .panel-body
+      = translation_fields_for @category, :title, _('Title')
+
+    .panel-footer
+      = f.submit _('Save'), class: 'btn btn-success'
+      = link_to _('Back'), categories_path

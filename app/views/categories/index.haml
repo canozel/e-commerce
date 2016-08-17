@@ -1,0 +1,17 @@
+%h4.page-header.no-margin
+  = _('Categories')
+  .pull-right
+    = link_to _('New category'), new_category_path, class: 'btn btn-xs btn-success'
+
+.panel.panel-default
+  .panel-body
+    %table.table.table-hover
+      %thead
+        %tr
+          %th= _('Title')
+          %th= _('Product count')
+          %th{ colspan: 3, width: '25%' }
+            = ransack_search_form_for(categories_path, :translations_title_cont)
+      %tbody{id: controller_name}
+        = render partial: controller_name
+

@@ -1,0 +1,21 @@
+%h4.page-header.no-margin
+  Products
+  .pull-right
+    = link_to _('New product'), new_product_path, class: 'btn btn-xs btn-success'
+
+.panel.panel-default
+  .panel-body
+    %table.table.table-hover
+      %thead
+        %tr
+          %th= _('Image')
+          %th= _('Title')
+          %th= _('EAN')
+          %th= _('Quantity')
+          %th= _('Price')
+          %th= _('VAT')
+          %th{ colspan: 3, width: '25%'}
+            = ransack_search_form_for(products_path, :translations_title_cont)
+      %tbody{id: controller_name}
+        = render partial: controller_name
+

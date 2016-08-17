@@ -1,0 +1,26 @@
+.panel
+  .panel-body
+    %h4.page-header= _('Address')
+
+    %dl.dl-horizontal
+      %dt= _('Address')
+      %dd
+        %address
+          %strong= @address.recipient
+          %br
+          = @address.street
+          %br
+          = "#{@address.zip_code} #{@address.city}"
+          %br
+          = @address.phone
+
+    %dl.dl-horizontal
+      %dt= _('User')
+      %dd= @address.user.name
+      %dt= _('Email')
+      %dd
+        %a{:href => "mailto:#{@address.user.email}"}= @address.user.email
+
+  .panel-footer
+    = link_to 'Edit address', edit_address_path(@address), class: 'btn btn-default'
+    = link_to 'Back to addresses', addresses_path

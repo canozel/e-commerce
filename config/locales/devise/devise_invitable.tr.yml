@@ -1,0 +1,23 @@
+en:
+  devise:
+    failure:
+      invited: 'Hesabınızı oluşturma işlemini tamamlamak için onaylayın, bekleyen bir davetiye var.'
+    invitations:
+      send_instructions: '%{email} adresine bir davet e-postası gönderildi.'
+      invitation_token_invalid: 'Sağlanan davetiye belirteci geçerli değil!'
+      updated: 'Parolanız başarıyla gönderildi. Artık oturum açtınız.'
+      no_invitations_remaining: "Kalan Davetiye"
+      invitation_removed: 'Davetiyeniz kaldırıldı.'
+      new:
+        header: "Davetiye gönder"
+        submit_button: "Bir davetiye gönder"
+      edit:
+        header: "Şifrenizi ayarlayın"
+        submit_button: "Şifremi ayarla"
+    mailer:
+      invitation_instructions:
+        subject: 'Davet talimatları'
+        hello: 'Merhaba %{email}'
+        someone_invited_you: 'Birisi davet etti, aşağıdaki bağlantı üzerinden kabul edebilirsiniz. %{url}'
+        accept: 'Daveti kabul et'
+        ignore: "Daveti kabul etmek istemiyorsanız, bu mesajı görmezden gelebilirsiniz. <bt /> Hesabınız oluşturuldu. Yukarıdaki bağlantıya ulaşın ve şifre koyun."
