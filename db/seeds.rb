@@ -4,9 +4,10 @@ admin_user = FactoryGirl.create(:admin)
 
 # CATEGORIES AND PRODUCTS
 4.times do |i|
-  category = FactoryGirl.create(:category, title: "Category #{i+1}")
-  category.title_de = "Kategorie #{i+1}"
-  category.title_ru = "Категория #{i+1}"
+  category = FactoryGirl.create(:category, title: "Pipe #{i+1}")
+  category.title_tr = "Pipo #{i+1}"
+  category.title_de = "Rohr #{i+1}"
+  category.title_ru = "труба #{i+1}"
   category.save
 
   rand(2..6).times do |int|
@@ -15,23 +16,23 @@ admin_user = FactoryGirl.create(:admin)
 end
 
 # SHIPMENTS
-shipment1 = FactoryGirl.create(:shipment, provider: 'OH', title: 'Home Delivery', fee: 0, default: true)
-shipment1.title_de = "Anlieferung frei Haus"
-shipment1.title_ru = "Доставка на дом"
+shipment1 = FactoryGirl.create(:shipment, provider: 'Aras', title: 'Aras Kargo', fee: 0, default: true)
+shipment1.title_de = "Aras Kargo"
+shipment1.title_ru = "Aras Kargo"
 shipment1.save
 
-shipment2 = FactoryGirl.create(:shipment, provider: 'DHL', title: 'Parcel', fee: 6.99, default: false)
-shipment2.title_de = "Paket"
-shipment2.title_ru = "Пакет"
+shipment2 = FactoryGirl.create(:shipment, provider: 'MNG', title: 'MNG Kargo', fee: 6.99, default: false)
+shipment2.title_de = "MNG Kargo"
+shipment2.title_ru = "MNG Kargo"
 shipment2.save
 
-shipment3 = FactoryGirl.create(:shipment, provider: 'Hermes', title: 'Parcel', fee: 5.99, default: false)
-shipment3.title_de = "Paket"
-shipment3.title_ru = "Пакет"
+shipment3 = FactoryGirl.create(:shipment, provider: 'Yurtiçi', title: 'Yurtiçi Kargo', fee: 5.99, default: false)
+shipment3.title_de = "Yurtiçi Kargo"
+shipment3.title_ru = "Yurtiçi Kargo"
 shipment3.save
 
 # PAYMENTS
-payment1 = FactoryGirl.create(:payment, title: 'Credit card')
+payment1 = FactoryGirl.create(:payment, title: 'Kredi Kartı')
 payment1.title_de = "Kreditkarte"
 payment1.title_ru = "Кредитная карта"
 payment1.save
